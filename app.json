@@ -1,7 +1,29 @@
 {
-  "name": "Trengo Webhook Example in Node.js",
-  "description": "Trengo Webhook Example in Node.js",
-  "repository": "https://github.com/rleroi/trengo-webhook-example-node",
-  "logo": "https://github.com/rleroi/trengo-webhook-example-node/raw/main/logo.png",
-  "keywords": ["node", "express", "trengo", "webhook"]
+    "contents": [
+        {
+            "type": "image",
+            "image": {
+                "url": "https://teapotwebshop.com/teapots/lime.jpg",
+                "caption": "1 Our lime teapot"
+            }
+        },
+        {
+            "type": "image",
+            "image": {
+                "url": "https://teapotwebshop.com/teapots/modern.png",
+                "caption": "2 Our modern teapot"
+            }
+        },
+        {
+            "type": "image",
+            "image": {
+                "url": "https://teapotwebshop.com/teapots/blue.jpg",
+                "caption": "3 Our blue teapot"
+            }
+        },
+        {
+            "type": "text",
+            "text": "Choose to place an order with it's number if you found something you like"
+        }
+    ]
 }
