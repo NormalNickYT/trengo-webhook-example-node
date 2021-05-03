@@ -1,7 +1,8 @@
 <?php
-$myObj->name = "John";
-$myObj->age = 30;
-$myObj->city = "New York";
+$ordernummer->name = "John";
+$ticketid->age = 30;
+$email->city = "New York";
+$zipcode->city = "New York";
 
 $myJSON = json_encode($myObj);
 
