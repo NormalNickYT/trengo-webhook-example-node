@@ -1,1 +1,1 @@
-document.write("post")
+document.write("post");
