@@ -3,7 +3,7 @@ const CryptoJS = require("crypto-js");
 require('dotenv').config();
 
 // insert your signing secret in the .env file
-const signingSecret = process.env.SIGNING_SECRET || '';
+const signingSecret = process.env.SIGNING_SECRET || '8ZBl4eCGBo3TjS5cW0abTMn2NRmLCzeb';
 
 if(!signingSecret || signingSecret === 'your secret here') {
   console.warn('No signing secret defined! You can define the SIGNING_SECRET in your Heroku settings: https://devcenter.heroku.com/articles/config-vars#using-the-heroku-dashboard');
